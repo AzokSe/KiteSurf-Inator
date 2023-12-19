@@ -1,0 +1,65 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'poppins';
+    color: #c6d2d2;
+}
+
+
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../IMG/BG/Background1.png);
+    background-size: 100%;
+}
+
+.bloc {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 500px;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+    border-radius: 25px;
+    box-shadow: 5px 20px 50px #000;
+}
+
+.bloc h2 {
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 75px;
+    letter-spacing: 1px;
+}
+.bloc img {
+    width: 170px;
+    margin-bottom: 40px;
+}
+
+.bloc h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.bloc .footer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 15px;
+    margin-top: 100px;
+}
+
+.bloc .footer p {
+    text-decoration-line: underline;
+}
+
+.bloc .footer p:nth-of-type(2) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+

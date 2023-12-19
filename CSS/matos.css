@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.sec1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #012c32;
+    background-size: cover;
+}
+.container {
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: gray;
+    background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+    border-radius: 25px;
+    box-shadow: 2.5px 10px 25px #000;
+    transition: .3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 5px 20px 50px #000;
+    transform: scale(1.02);
+}
+
+.left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.ligne {
+    height: 10px;
+    width: 200px;
+    background-color: gray;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 5em;
+    color: white;
+    width: 100%;
+}
+.right {
+    width: 60%;
+    margin: 40px;
+}
+p {
+    font-size: xx-large;
+    color: gray;
+    text-align: justify;
+    font-weight: 500; 
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-height: none;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    h2 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: x-large;
+    }
+}
